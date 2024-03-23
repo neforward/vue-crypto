@@ -1,0 +1,10 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="arrow_downward" clip-path="url(#clip0_159_16912)">
+<path id="Vector" d="M2.66668 8.00004L3.60668 8.94004L7.33334 5.22004L7.33334 13.3334L8.66668 13.3334L8.66668 5.22004L12.3867 8.94671L13.3333 8.00004L8.00001 2.66671L2.66668 8.00004Z" fill="#21AF40"/>
+</g>
+<defs>
+<clipPath id="clip0_159_16912">
+<rect width="16" height="16" fill="white" transform="translate(16 16) rotate(180)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,57 @@
+.order__book{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #131E2A;
+    margin: 5px 0;
+    &_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .fullScreen__btn {
+            cursor: pointer;
+        }
+    }
+    // .line__horiz{
+
+    // }
+    .order__link{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+        ul a{
+            margin-right: 5px;
+        }
+
+    }
+
+    .stat__name{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #697D94;
+        font-family: Manrope;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px 0 10px 0;
+    }
+    .stat__res{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 14px;
+        padding: 2px 0 7px 0;
+        p{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.orange{
+   color: #FFC121;
+}

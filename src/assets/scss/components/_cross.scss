@@ -1,0 +1,34 @@
+.cross__calc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+
+    .cross__title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 4px;
+        background: #131E2A;
+        padding: 10px 20px;
+        width: 100%;
+
+        .title_1{
+            display: flex;
+            align-items: center;
+        }
+        .title_2{
+            img{
+                cursor: pointer;
+            }
+        }
+
+        .green{
+            margin-right: 5px;
+        }
+    }
+
+    .calc{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "vue-coinz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass-loader": "^13.3.2",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5",
+    "vue-trading-view": "^1.0.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.69.5",
+    "vite": "^5.0.8"
+  }
+}

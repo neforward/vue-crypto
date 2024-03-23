@@ -1,0 +1,36 @@
+header.header{
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 500;
+     .header__container{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         .header__side1{
+             display: flex;
+             align-items: center;
+             gap: 100px;
+             .logo svg{
+                width: 100px;
+             }
+             .menu{
+                 display: flex;
+                 align-items: center;
+                 a{
+                     margin-right: 25px;
+                 }
+             }
+ 
+         }
+         .header__login{
+             display: flex;
+             align-items: center;
+             gap: 50px;
+             .getStr{
+                 padding: 13px 40px;
+                 border-radius: 6px;
+                 background: var(--Main, #2E4CE5);
+             }
+         }
+     }
+ }

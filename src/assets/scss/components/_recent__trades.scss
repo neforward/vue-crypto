@@ -1,0 +1,36 @@
+.recent{
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #131E2A;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .fullScreen__btn {
+            cursor: pointer;
+        }
+    }
+}
+    .line__horiz {
+        background:  #B9B9B9;
+        width: 270px;
+        height: 1px;
+        margin: 5px 0;
+    }
+    .recent__stat {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 12px;
+        li{
+            margin: 0 0 5px 0;
+        }
+    }
+
+.header__title{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+

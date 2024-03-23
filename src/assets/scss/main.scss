@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap'); /*Обнуление*/
+@import './components/header';
+@import './components/tradingBtc';
+@import './components/left__side';
+@import './components/order__book';
+@import './components/positions';
+@import './components/recent__trades';
+@import './components/rigth__side';
+@import './components/cross';
+@import './components/open';
+
+/*--------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #0d151d;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  background: #0d151d;
+  width: 100%;
+  [class*='__container'] {
+    max-width: 1394px;
+    margin: 0px auto;
+  }
+
+  main.main {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title-grey {
+    color: #697d94;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .title-white {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .dflex {
+    display: flex;
+    align-items: center;
+  }
+
+  .clop__active {
+    color: #2e4ce5;
+  }
+
+  .olb__active {
+    border-radius: 4px;
+    background: #3f5c7e;
+    color: #fff;
+  }
+
+  .btn2 {
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+  }
+
+  .hide__btn {
+    display: flex;
+    align-items: center;
+    color: #697d94;
+    font-size: 12px;
+    font-weight: 700;
+    gap: 5px;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

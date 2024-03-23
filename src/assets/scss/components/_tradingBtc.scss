@@ -1,0 +1,83 @@
+.trading {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #131E2A;
+    &__info { 
+        display: flex;
+        align-items: center;
+    }
+    &__name { 
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+        .btcLogo{
+            margin: 0 15px;
+        }
+
+    }
+    &__title { 
+        div{
+            display: flex;
+            align-items: center;
+            p{  
+                margin-right: 5px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+    &__static { 
+        margin: 0 50px 0 0 ;
+        text-align: center;
+        p{
+            color: #697D94; 
+            margin-bottom: 5px;
+        }
+        span{
+            font-size: 12px;
+        }
+        
+        
+        
+
+    }
+    &__settings { 
+        display: flex;
+        align-items: center;
+    }
+    &__copy { 
+        display: flex;
+        align-items: center;
+        img{
+            margin-right: 10px;
+        }
+    }
+}
+.line { 
+    background: #fff;
+    width: 1px;
+    height: 20px;
+    margin: 0 15px;
+}
+.settingIcon{
+    margin-right: 15px;
+}
+.green{
+    color: #21AF40;
+    display: flex;
+    align-items: center;
+}
+
+.red{
+    color: #FF2C2C;
+    display: flex;
+    align-items: center;
+}
+
+.yellow{
+    color: #FFC121;
+}
